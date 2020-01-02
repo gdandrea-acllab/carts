@@ -247,7 +247,7 @@ jobs:
       PCF_APP_SUFFIX: ((pcf-dev-carts-suffix))
       PCF_APP_DOMAIN: ((pcf-dev-app-domain))
       CHECK_PATH: /health
-      SERVER_PORT: 443
+      SERVER_PORT: 80
       VU_COUNT: 1
       LOOP_COUNT: 1
       DT_LTN: HealthCheck
@@ -274,7 +274,7 @@ jobs:
       PCF_APP_SUFFIX: ((pcf-dev-carts-suffix))
       PCF_APP_DOMAIN: ((pcf-dev-app-domain))
       CHECK_PATH: /health
-      SERVER_PORT: 443
+      SERVER_PORT: 80
       VU_COUNT: 1
       LOOP_COUNT: 1
       DT_LTN: FuncCheck
@@ -375,7 +375,7 @@ jobs:
       PCF_APP_SUFFIX: ((pcf-staging-carts-suffix))
       #PCF_APP_SUFFIX: ((pcf-staging-front-end-suffix))
       PCF_APP_DOMAIN: ((pcf-staging-app-domain))
-      SERVER_PORT: 443
+      SERVER_PORT: 80
       VU_COUNT: 10
       LOOP_COUNT: 25 # 250
       DT_LTN: e2eCheck
@@ -519,7 +519,7 @@ jobs:
       RESULT_DIR: PerfCheck
       PCF_APP_SUFFIX: ((pcf-dev-carts-suffix))
       PCF_APP_DOMAIN: ((pcf-dev-app-domain))
-      SERVER_PORT: 443
+      SERVER_PORT: 80
       VU_COUNT: 10
       LOOP_COUNT: 250
       DT_LTN: PerfCheck
