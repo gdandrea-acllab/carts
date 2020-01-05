@@ -69,6 +69,6 @@ spec:
     targetPort: 8080
   selector:
     app: carts
-#  type: LoadBalancer
-  externalIPs:
-  - 159.122.10.206
+  type: LoadBalancer
+#  externalIPs:
+#  - 159.122.10.206
